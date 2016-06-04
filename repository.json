@@ -1,0 +1,42 @@
+{
+	"schema_version": "3.0.0",
+	"packages": [
+		{
+			"name": "FOX-indentXml",
+			"details": "https://github.com/helgeFox/fox-indent-xml",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FOX-GetImportXml",
+			"details": "https://github.com/helgeFox/fox-getimportxml",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		}
+
+	],
+	"dependencies": [
+		{
+			"name": "suds",
+			"load_order": "01",
+			"description": "suds package",
+			"author": "helgeFox",
+			"issues": "https://github.com/helgeFox/suds-st-dep/issues",
+			"releases": [
+				{
+					"base": "https://github.com/helgeFox/suds-st-dep",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		}
+	]
+}
