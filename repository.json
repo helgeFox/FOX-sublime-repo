@@ -21,6 +21,21 @@
 				}
 			]
 		}
-
+	],
+	"dependencies": [
+		{
+			"name": "suds",
+			"load_order": "01",
+			"description": "suds package",
+			"author": "helgeFox",
+			"issues": "https://github.com/helgeFox/suds-st-dep/issues",
+			"releases": [
+				{
+					"base": "https://github.com/helgeFox/suds-st-dep",
+					"tags": true,
+					"sublime_text": "*"
+				}
+			]
+		}
 	]
 }
