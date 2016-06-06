@@ -16,7 +16,12 @@
 			"details": "https://github.com/helgeFox/fox-getimportxml",
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/helgeFox/fox-getimportxml-st2",
+					"sublime_text": "<3000",
+					"tags": true
+				},
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
